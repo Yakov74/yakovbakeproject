@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 24px;
+  font-weight: 600;
+  background-color: rgb(252, 190, 115);
+  color: brown;
+}
+.about {
+  height: 300px;
+  background-image: url("https://wallpaperboat.com/wp-content/uploads/2020/02/bakery-01.jpg");
+  text-align: center;
+  color: brown;
+}
+.about1 {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.foto1 {
+  width: 40%;
+}
+.foto1 img {
+  height: 500px;
+  width: 500px;
+}
+.about_text {
+  text-align: left;
+  width: 80%;
+  font-size: 20px;
+  height: 400px;
+}
+.p {
+  text-align: left;
+}
+.small_foto img {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  left: 900px;
+  border-radius: 50%;
+  border: 5px solid brown;
+}
+.about2 {
+  float: right;
+  padding: 40px;
+  margin: 40px;
+  height: 600px;
+  display: flex;
+}
+.foto2 img {
+  height: 500px;
+  width: 500px;
+}
+.about_footer {
+  text-align: center;
+  height: 200px;
+}
+/* .services {
+  display: flex;
+} */
+.ser1 {
+  height: 300px;
+  background-color: rgb(236, 210, 176);
+  margin: 40px;
+  padding: 40px;
+  display: flex;
+  text-align: center;
+  font-size: 20px;
+  background-image: url(https://images.pexels.com/photos/1408221/pexels-photo-1408221.jpeg?cs=srgb&dl=pexels-irina-iriser-1408221.jpg&fm=jpg);
+  color: white;
+}
+.ser1 img {
+  width: 300px;
+  height: 300px;
+}
+.ser-text h3{
+    color: rgb(17, 250, 250);
+    font-size: 40px;
+}
+.ser2 {
+    height: 300px;
+    background-color: rgb(236, 210, 176);
+    margin: 40px;
+    padding: 40px;
+    display: flex;
+    text-align: left;
+    font-size: 20px;
+    background-image: url(https://images.pexels.com/photos/1227513/pexels-photo-1227513.jpeg?cs=srgb&dl=pexels-oleksandr-pidvalnyi-1227513.jpg&fm=jpg);
+    color: white;
+  }
+  .ser2 img {
+    width: 300px;
+    height: 300px;
+    margin-left: 100px;
+  }
+  .ser-text h3{
+      color: rgb(3, 107, 107);
+      font-size: 40px;
+  }
+  .ser3 {
+    height: 300px;
+    background-color: rgb(236, 210, 176);
+    margin: 40px;
+    padding: 40px;
+    display: flex;
+    text-align: center;
+    font-size: 20px;
+    background-image: url(https://th.bing.com/th/id/R.1a9c3330c79d162361caed191c9d194c?rik=KkeuKHEu69p8OA&pid=ImgRaw&r=0);
+    color: white;
+  }
+  .ser3 img {
+    width: 300px;
+    height: 300px;
+
+  }
+  .ser-text h3{
+      color: rgb(27, 214, 214);
+      font-size: 40px;
+  }
+  .ser3 p{
+color: rgb(4, 75, 75);
+  }
+  .ser4 {
+    height: 300px;
+    background-color: rgb(236, 210, 176);
+    margin: 40px;
+    padding: 40px;
+    display: flex;
+    text-align: center;
+    font-size: 20px;
+    background-image: url(https://ak.picdn.net/shutterstock/videos/5061248/thumb/2.jpg);
+    color: white;
+  }
+  .ser4 img {
+    width: 300px;
+    height: 300px;
+
+  }
+  .contact{
+    margin: 40px;
+  }
